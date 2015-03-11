@@ -1,0 +1,294 @@
+.chosen-container .chosen-results li {
+    font-style: normal;
+    font-weight: normal;
+}
+
+.comment-content .meta {
+    float: left;
+}
+
+.comment-content .user-input {
+    float: right;
+}
+
+.comment-content p {
+    white-space: pre-line;
+    word-break: break-word;
+}
+
+.comment-content:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.compact .dashboard-issue .dashboard-cell {
+    border: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    vertical-align: middle;
+}
+
+.compact .dashboard-issue-title .issue-due-date {
+    text-align: center;
+    width: 50px;
+}
+
+.dashboard-container {
+    padding: 0;
+}
+
+.dashboard-header {
+    padding-bottom: 5px;
+}
+
+.dashboard-header-icons a {
+    height: 15px;
+    line-height: 15px;
+    min-width: 15px;
+}
+
+.dashboard-header-icons i {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.dashboard-header-left .dashboard-header-icons li {
+    margin-right: 10px;
+}
+
+.dashboard-header-title {
+    font-size: 1.5em;
+}
+
+.dashboard-issue-fixer .definition, .dashboard-issue-tester .definition {
+    font-size: 12px;
+    font-style: normal;
+}
+
+.dashboard-issue-fixer .title, .dashboard-issue-tester .title {
+    display: none;
+}
+
+.dashboard-issue-fixer, .dashboard-issue-tester {
+    display: table-cell;
+    font-style: normal;
+    padding-bottom: 0;
+    padding-right: 5px;
+    padding-top: 0;
+    width: 105px;
+}
+
+.dashboard-issue-status .state, .dashboard-issue-status .level, .issue-due-date, .site-icons .notification-count {
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+
+.dashboard-issue-subtitle .last-updated {
+    display: none;
+}
+
+.dashboard-row.critical {
+    background-color: rgba(149,39,21,0.2);
+}
+
+.dashboard-row.high {
+    background-color: rgba(242,111,33,0.2);
+}
+
+.dashboard-row.low {
+    background-color: rgba(109,167,155,0.2);
+}
+
+.dashboard-row.medium {
+    background-color: rgba(243,159,9,0.2);
+}
+
+.dashboard-subheader {
+    border-bottom: 0;
+}
+
+.dashboard-subheader fieldset>button {
+    font-style: normal;
+}
+
+.dashboard-subheader-field .options .options-nav li {
+    font-style: normal;
+}
+
+.issue-alert {
+    padding-top: 5px;
+}
+
+.issue-back {
+    height: auto;
+    width: 30px;
+}
+
+.issue-back i {
+    left: 1px;
+    top: 1px;
+}
+
+.issue-header {
+    height: 30px;
+}
+
+.issue-history .fixed {
+    top: 15px ;
+}
+
+.issue-history .reply {
+    margin-bottom: 0;
+}
+
+.issue-icons {
+    float: right;
+    position: relative;
+    right: auto;
+    top: 13px;
+}
+
+.issue-meta, .issue-title {
+    display: inline;
+    margin-bottom: 0;
+}
+
+.issue-paging a {
+    padding-top: 4px;
+}
+
+.issue-paging a, .issue-paging li {
+    height: 30px;
+}
+
+.issue-title {
+    font-size: 20px;
+}
+
+.no-comment .comment-content .meta {
+    float: left;
+}
+
+.no-comment .comment-content .user-input {
+    float: right;
+}
+
+.reply.no-comment .action {
+    display: inline;
+    font-size: 15px;
+}
+
+.reply.no-comment .date-published {
+    display: inline;
+}
+
+.reply.no-comment .fixed {
+    visibility: hidden;
+}
+
+.site-breadcrumbs {
+    padding-top: 11px;
+}
+
+.site-header {
+    height: 40px;
+}
+
+.site-icons .notification-count {
+    left: 0;
+    margin: auto;
+    padding: 0 0 1px 0;
+    right: 0;
+    text-align: center;
+    width: 20px;
+}
+
+.site-icons a {
+    height: 40px;
+    line-height: 48px;
+    width: 40px;
+}
+
+.site-icons a.settings {
+    line-height: 48px;
+    width: 40px;
+}
+
+.site-icons li {
+    height: 40px;
+    width: 40px;
+}
+
+.site-logo {
+    background-position: -5px -33px;
+    background-size: 22px;
+    height: 12px;
+    width: 12px;
+}
+
+.site-mainbar p {
+    margin-bottom: 3px;
+}
+
+.site-mainbar section {
+    border-top: 1px solid #ccc;
+    padding: 10px 0 ;
+}
+
+.site-mainbar section:first-child {
+    border-top: none;
+}
+
+.user-input blockquote {
+    border-left: 2px solid #d7d7d7;
+    padding: 0 20px 0 5px;
+}
+
+.user-input pre, .user-input code {
+    border-radius: 0;
+    font-size: 0.8em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 1px;
+}
+
+header.group.next-steps-header {
+    min-height: 20px;
+}
+
+section.no-comment > div {
+    opacity: .5;
+}
+
+.site-mainbar {
+    margin-right: 210px;
+}
+
+.site-sidebar {
+    width: 210px;
+    padding: 120px 15px 60px 15px;
+}
+
+.site-sidebar .issue-member .avatar {
+    display: none;
+}
+
+.mainbar-inner {
+    max-width: none;
+}
+
+.issue-summary-bar {
+    width: 210px;
+    padding: 0;
+}
+
+.issue-summary-bar .issue-title, .issue-summary-bar .issue-meta {
+    display: block;
+}
+
