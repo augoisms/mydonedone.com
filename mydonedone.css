@@ -60,10 +60,6 @@
     font-style: normal;
 }
 
-.dashboard-issue-fixer .title, .dashboard-issue-tester .title {
-    display: none;
-}
-
 .dashboard-issue-fixer, .dashboard-issue-tester {
     display: table-cell;
     font-style: normal;
@@ -73,18 +69,11 @@
     width: 105px;
 }
 
-.dashboard-issue-status .state, .dashboard-issue-status .level, .issue-due-date, .site-icons .notification-count {
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-}
-
 .dashboard-issue-subtitle .last-updated {
     display: none;
 }
 
+/*
 .dashboard-row.critical {
     background-color: rgba(149,39,21,0.2);
 }
@@ -100,6 +89,7 @@
 .dashboard-row.medium {
     background-color: rgba(243,159,9,0.2);
 }
+*/
 
 .dashboard-subheader {
     border-bottom: 0;
@@ -120,6 +110,8 @@
 .issue-back {
     height: auto;
     width: 30px;
+    background: none;
+    padding-left: 5px;
 }
 
 .issue-back i {
@@ -277,5 +269,16 @@ section.no-comment > div {
 .issue-alert-animated {
     height: 100%;
     padding: 5px 30px 0 30px;
+}
+
+.dashboard-issue-status {
+    width: 140px;
+}
+
+.dashboard-issue-status .state {
+    height: 30px;
+    width: 90px;
+    padding: 9px 5px 0 5px;
+    font-size: 11px;
 }
 
