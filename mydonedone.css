@@ -3,14 +3,6 @@
     font-weight: normal;
 }
 
-.comment-content .meta {
-    float: left;
-}
-
-.comment-content .user-input {
-    float: right;
-}
-
 .comment-content p {
     white-space: pre-line;
     word-break: break-word;
@@ -192,6 +184,18 @@
     visibility: hidden;
 }
 
+.reply:not(.no-comment) .comment-content .action {
+    float: left;
+}
+
+.reply:not(.no-comment) .comment-content .date-published {
+    float: right;
+}
+
+.reply:not(.no-comment) .comment-content .user-input {
+    clear: both;
+}
+
 .site-breadcrumbs {
     padding-top: 11px;
 }
@@ -237,7 +241,7 @@
 }
 
 .site-mainbar section {
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #ececec;
     padding: 10px 0 ;
 }
 
@@ -258,37 +262,20 @@
     padding: 1px;
 }
 
+body#issue-detail {
+    padding-top: 40px;
+}
+
 header.group.next-steps-header {
     min-height: 20px;
 }
 
 section.no-comment > div {
-    opacity: .5;
+    opacity: .25;
 }
 
-.site-mainbar {
-    margin-right: 210px;
-}
-
-.site-sidebar {
-    width: 210px;
-    padding: 120px 15px 60px 15px;
-}
-
-.site-sidebar .issue-member .avatar {
-    display: none;
-}
-
-.mainbar-inner {
-    max-width: none;
-}
-
-.issue-summary-bar {
-    width: 210px;
-    padding: 0;
-}
-
-.issue-summary-bar .issue-title, .issue-summary-bar .issue-meta {
-    display: block;
+.issue-alert-animated {
+    height: 100%;
+    padding: 5px 30px 0 30px;
 }
 
